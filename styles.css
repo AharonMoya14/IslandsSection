@@ -1,0 +1,500 @@
+/*
+ All Rights Reserved
+ This software is property information of AKUREY S.A.
+ Contact us at contact@akurey.com
+ @summary Task 3 css code
+*/
+.general{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.header{
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    height: 78px;
+    justify-content: center;
+}
+.hamburgerMenu{
+    display:none;
+    position: absolute;
+    flex-direction: column;
+    top: 76px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 3px #F3F3F3;
+    width: 100%;
+    height: 406px;
+    z-index: 1;
+    justify-content: center;
+}
+.navbarMobile{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin: 0 auto;
+    margin-bottom: 46px;
+    align-items: center;
+}
+.navbarText{
+    white-space: nowrap;
+    height: 24px;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #575757;
+    text-decoration: none;
+}
+.navbarText__active{
+    color: #0C75AF;
+}
+.languageHamburger{
+    width: 169px;
+    height: 30.79px;
+}
+.menu{
+    position: absolute;
+    display: flex;
+    width: 12px;
+    height: 12px;
+    left: 19px;
+}
+.menu__open{
+    width: 18px;
+    height: 16px;
+}
+.mainLogo{
+    position: absolute;
+    height: 40px;
+    margin: auto;
+}
+.navbar{
+    display: none;
+}
+.sinopsisBackgroundContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.background{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 66.666vw;
+    margin: 0 auto;
+}
+.backgroundImgTablet{
+    display: none;
+}
+.backgroundImg{
+    display: flex;
+    width: 100%;
+    height: 66.666vw;
+    position: absolute;
+    z-index: -1;
+}
+.backgroundImgDesktop{
+    display: none;
+}
+.whiteFade{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 163px;
+    left: 0px;
+    align-self: flex-end;
+    margin-bottom: -1px;
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #FFFFFF 91.54%);
+}
+.objectHeader__title{
+    position: absolute;
+    width: 164px;
+    height: 40px;
+    white-space: nowrap;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-self: flex-end;
+    text-align: center;
+    color: #171717;
+    margin-bottom: 0px;
+    margin-left: 3.8461538vw;
+}
+
+.textBoxSearch{
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    margin: 32px auto 0px auto; 
+    flex-direction: row;
+    align-items: center;
+    gap: 23px;
+    width: 91.7948718%;
+    height: 56px;
+    border: 1px solid #B5B5B5;
+    border-radius: 6px;
+    margin-bottom: 48px;
+}
+.textBoxSearch__image{
+    position: absolute;
+    margin-left: 8px;
+    width: 24px;
+    height: 24px;
+}
+.textBoxSearch__text{
+    position: absolute;
+    width: 275px;
+    height: 20px;
+    margin-left: 55px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    resize: none;
+    overflow: hidden;
+    border: none;
+    color: #7D7D7D;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+
+.islands{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px;
+    gap: 5.1282051vw;
+    width: 91.7948718%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 69.74px;
+}
+
+.islandsCard__dataContainer__text1{
+    height: 16px;
+    margin: 0px;
+    margin-top: 3.97px;
+    white-space: nowrap;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    margin-left: 13.18px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.islandsCard__dataContainer__text2{
+    height: 16px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 4.58px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.4px;
+    color: #F4F4F4;
+}
+.islandsCard{
+    position: relative;
+    width: 169.14px;
+    height: 168.27px;
+}
+.islandsCard__hidden{
+    display: none;
+}
+.islandsCard__dataContainer{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 155.19px;
+    height: 41.85px;
+    left: 6.97px;
+    top: 119.44px;
+    background: rgba(0, 96, 150, 0.59);
+    backdrop-filter: blur(1.74368px);
+    border-radius: 5.23104px;
+}
+.islandsCard_image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(Goa_Kingdom.png);
+    border-radius: 6.97472px;
+}
+.islandsCard__dataContainer__image{
+    width: 6.54px;
+    height: 7.89px;
+    margin-left: 12.42px;
+}
+
+
+.endSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+    width: 100%;
+    height: 271px;
+    background: #0C75AF;
+}
+.skull{
+    width: 97px;
+    height: 89px;
+    margin-top: 48px;
+}
+.textEnd{
+    margin: 0;
+    width: 286px;
+    height: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+
+
+@media screen and (min-width: 768px) {
+    .hamburgerMenu{
+        top: 107px;
+    }
+    .menu{
+        left: 67px;
+    }
+    .background{
+        height: 50.390625vw; 
+    }
+    .backgroundImg{
+        display:none;
+        
+    }
+    .backgroundImgTablet{
+        display: flex;
+        width: 100%;
+        height: 50.390625vw;  
+    }
+    .whiteFade{
+        height: 311px;
+    }
+    .objectHeader__title{
+        margin-left: 8.3333333vw;
+        margin-bottom: 16px;
+    }
+    .header{
+        height: 109px;
+    }
+    .menu{
+        left: 67px;
+    }
+    .mainLogo{
+        height: 58px;
+    }
+    .textBoxSearch{
+        width: 83.3333333%;
+        margin-bottom: 32px;
+    }
+    .objectHeader{
+        width: 83.3333333%;
+    }
+
+    .islands{
+        width: 83.3333333%;
+        margin-bottom: 70px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.260416666vw;
+        margin-bottom: 70px;
+    } 
+    .islandsCard__dataContainer__text1{
+        height: 20px;
+        margin-top: 4.25px;
+        white-space: nowrap;
+        font-family: 'Roboto Slab', sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: 15.47px;
+        letter-spacing: 0.1px;
+    }
+    .islandsCard__dataContainer__text2{
+        margin-left: 5.41px;
+    }
+    .islandsCard{
+        position: relative;
+        width: 200.03px;
+        height: 199px;
+    }
+    .islandsCard__hidden{
+        display: flex;
+    }
+    .islandsCard__dataContainer{
+        width: 183.53px;
+        height: 49.49px;
+        left: 8.25px;
+        top: 141.26px;
+        background: rgba(0, 96, 150, 0.59);
+        backdrop-filter: blur(2.06218px);
+        border-radius: 6.18653px;
+    }
+    .islandsCard_image{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+        border-radius: 8.2487px;
+    }
+    .islandsCard__dataContainer__image{
+        width: 7.73px;
+        height: 9.33px;
+        margin-left: 14.69px;
+    }
+    
+    .endSection{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .skull{
+        margin-top: 0;
+    }
+    .textEnd{
+        text-align: start;
+    }
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    .hamburgerMenu{
+        display: none;
+    }
+    .header{
+        width: auto;
+        height: 100px;
+        margin: 0px auto 0px 13.28125vw;
+        justify-content: flex-start;
+    }
+    .menu{
+        display: none;
+    }
+    .mainLogo{
+        position: absolute;
+        width: 163px;
+        height: 58px;
+        margin-left: 0;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 48px;
+        position: absolute;
+        width: auto;
+        height: 30.79px;
+        left: 232px;
+        top: 35px;
+    }
+    .language{
+        width: 90px;
+        height: 30.79px;
+    }
+    .background{
+        height: 28.28125vw; 
+    }
+    .backgroundImgTablet{
+        display: none;
+    }
+    .backgroundImg{
+        display: none;
+    }
+    .backgroundImgDesktop {
+        display: flex;
+        width: 100%;
+        height: 28.28125vw;
+        position: absolute;
+        z-index: -1;
+    }
+    .whiteFade{
+        height: 192px;
+    } 
+    .objectHeader__title{
+        margin-left: 13.90625vw;
+        margin-bottom: -14px;
+    }
+
+    .textBoxSearch{
+        width: 73.4375%;
+        margin-top: 62px;
+        margin-bottom: 48px;
+    }
+    
+    .islands{
+        width: 73.4375%;
+        gap: 1.5625vw;
+    }
+    .islandsCard__dataContainer__text1{
+        height: 24.75px;
+        margin-top: 12.37px;
+        font-size: 18px;
+        line-height: 24px;
+        margin-left: 23.2px;
+        letter-spacing: 0.1px;
+    }
+    .islandsCard__dataContainer__text2{
+        height: 24.75px;
+        font-size: 18px;
+        line-height: 24px;
+        margin-left: 8.12px;
+        letter-spacing: 0.15px;
+    }
+    .islandsCard{
+        width: 300.05px;
+        height: 298.5px;
+    }
+    .islandsCard__dataContainer{
+        width: 275.3px;
+        height: 74.24px;
+        left: 12.37px;
+        top: 211.89px;
+        background: rgba(0, 96, 150, 0.59);
+        backdrop-filter: blur(3.09326px);
+        border-radius: 9.27979px;
+    }
+    .islandsCard_image{
+        border-radius: 12.3731px;
+    }
+    .islandsCard__dataContainer__image{
+        width: 11.6px;
+        height: 14px;
+        margin-left: 22.04px;
+    }
+}
